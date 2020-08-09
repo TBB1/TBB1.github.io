@@ -1,0 +1,61 @@
+body{
+  margin: auto;
+  background: #eff2eeba;
+  width: 1008px;
+}
+#mainNav{
+  border: 2px solid #20ff0f;
+  height: 120px;
+  width: 1006px;
+  margin-bottom: 30px;
+}
+img{max-width:100%;}
+#logo{
+  width: 300px;
+  margin-left: 30px;
+  height: 110px;
+}
+#navSearch{
+  float: right;
+  margin-top:40px;
+}
+#navSearch li {
+  list-style: none;
+  display: inline-block;
+  
+}
+#navSearch a{
+  text-decoration: none;
+  font-size: 30px;
+  padding: 30px;
+  color: rgb(0,0,0);
+  font-weight: bold;
+  transition: all 1s;
+}
+#navSearch a:hover{
+  color: #00ff10;
+}
+
+#logo,#navSearch{
+  display: inline-block;
+}
+#CreatorsId{
+  margin: auto;
+  width: 1000px;
+  border: 1px solid #18e700;
+  margin-bottom: 10px;
+}
+img{
+  width: 100%;
+}
+#memberPic{
+  margin: auto;
+  width: 900px;
+  width: 600px;
+}
+#membersInfo{
+  padding: 20px;
+  margin: auto;
+  width: 900px;
+  text-align: center;
+}

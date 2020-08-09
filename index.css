@@ -1,0 +1,27 @@
+body{
+    width: 1008px;
+    margin: auto;  
+}
+#SecurityForm{
+    text-align: center;
+    color: antiquewhite;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+}
+input{
+    width: 600px;
+    font-size: 30px;
+    color: rgb(21, 202, 81);
+    font-weight: bold;
+}
+#SecurityForm h1{
+    padding-top: 50px;
+}
+button{
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(7, 201, 55);
+    border: 2px chartreuse;
+}

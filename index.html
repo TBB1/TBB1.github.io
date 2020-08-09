@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="SecurityForm">
+        <form onsubmit="return nextPage()" action="index1.html">
+            <h1>This site is only for the members of TBB. <br> If you are a member of TBB you must know the answers bellow. <br> So answer them and visit the site.</h1> 
+           <h2> What's the full-form of TBB:</h2> 
+            <input type="text" placeholder="Full-form of TBB."  id="TBBname">
+            <br>
+            <h2>What's the motto of TBB:</h2> 
+            <input type="text" placeholder="Motto of TBB."  id="motto">
+        <br><br><br>
+        <button  type="submit">SUBMIT</button>
+        </form>
+    </div>
+<script>
+    function nextPage(){
+        var ans1 = document.getElementById("TBBname").value;
+        var ans2 = document.getElementById("motto").value;
+        if (ans1=="The Back Benchers" && ans2 == "Memories remain unchanged.") {
+            return true
+        } else {
+            alert("Invalid. Please input all the correct answers.");
+            return false;
+        }
+    }
+</script>
+</body>
+</html>
